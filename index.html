@@ -19,6 +19,8 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="https://kit.fontawesome.com/922b45164f.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -67,7 +69,7 @@
             <div class="service">
                 <h3>Content + Design</h3>
                 <p>
-                    Copy editing, layout design, and messaging. With a strong background in interpretation, visual communication, writing, editing, and user experience reasearch, Leonor can also consult on the content and UX of your web site/app.
+                    Copy editing, layout design, and brand messaging. With a strong background in interpretation, visual communication, writing, editing, and user experience reasearch, Leonor can also consult on the content and UX of your web site/app.
                 </p>
             </div>
         </div>
@@ -79,14 +81,14 @@
 
     <section class="about-me" id="about">
         <h2 class="section__title section__title--about">Who I am</h2>
-        <p class="section__subtitle section__subtitle--about">Full-stack developer based out of Portland, OR</p>
+        <p class="section__subtitle section__subtitle--about">Developer based out of PDX</p>
 
         <div class="about-me__body">
             <p>I'm a career changer from the museum industry, now entering the web development field. Leveraging skills in communication, problem solving, and strategic thinking, I bring a unique approach to tackling challenges and innovation in the realm of coding.</p>
-            <p>When I'm not coding, I enjoy a variety of crafts, reading, baking (especially sourdough—yes, I was bitten by the pandemic sourdough baking bug), serenading my cat named Kitten with my mediocre ukulele skills, or trekking through the mountains of the PNW.</p>
+            <p>When I'm not coding, I enjoy a variety of crafts, reading, baking (especially sourdough—yes, I was bitten by the pandemic sourdough bug), serenading my cat named Kitten with my mediocre ukulele skills, or trekking through the mountains of the PNW.</p>
         </div>
 
-        <img src="./img/about-hiking.jpg" alt="Leonor hiking in the Goat Rocks. The mountains are covered in snow and it's a sunny day with blue skies." />
+        <img src="./img/about-hiking.jpg" alt="Leonor hiking in the Goat Rocks. The mountains are covered in snow and it's a sunny day with blue skies." class="about-me__img" />
     </section>
 
 
@@ -94,51 +96,69 @@
 
     <section class="my-work" id="work">
         <h2 class="section__title">My work</h2>
-        <p class="section__subtitle"></p>
+        <p class="section__subtitle--work">A selection of my personal projects</p>
         
         <div class="portfolio">
             <!-- Portfolio item 01 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
-            </a>
+            <div class="portfolio__item">
+                <p><strong>Boss Books</strong></p>
+                <p>Single-page web app with React & Redux</p>
+                <a href="portfolio1.html"  class="portfolio__img"><img src="img/portfolio-01.png" alt=""></a>
+                
+            </div>
             
             <!-- Portfolio item 02 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
-            </a>
+            <div class="portfolio__item">
+                <p><strong>The Hikers App</strong></p>
+                <p>MVC web app built with Rails</p>
+                <a href="#"  class="portfolio__img"><img src="img/portfolio-01.png" alt=""></a>
+                
+            </div>
             
             <!-- Portfolio item 03 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
-            </a>
+            <div class="portfolio__item">
+                <p><strong>The Hikers App 2.0</strong></p>
+                <p>Single-page web app using JavaScript</p>
+                <a href="#"  class="portfolio__img"><img src="img/portfolio-01.png" alt=""></a>
+            </div>
             
             <!-- Portfolio item 04 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
-            </a>
+            <div class="portfolio__item">
+                <p><strong>Cookbook Community</strong></p>
+                <p>MVC web app built with Sinatra</p>
+                <a href="#"  class="portfolio__img"><img src="img/portfolio-01.png" alt=""></a>
+                
+            </div>
             
             <!-- Portfolio item 05 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
-            </a>
+            <div class="portfolio__item">
+                <p><strong>Brewfinder</strong></p>
+                <p>CLI app that queries an API</p>
+                <a href="#"  class="portfolio__img"><img src="img/portfolio-01.png" alt=""></a>
+            </div>
             
             <!-- Portfolio item 06 -->
-            <a href="#" class="portfolio__item">
-                <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
-            </a>
+            <div class="portfolio__item">
+                <div class="portfolio__item--bonus">
+                <p class><strong>Bonus item: this site!</strong></p>
+                <p>I built this site from scratch using HTML, CSS, and a little JavaScript.</p>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Footer & Contact info -->
 
-    <footer>
-        <a href="mailto:leonoracolbert@gmail.edu" class="footer__link">Send me an email</a>
+    <footer class="footer">
+        <a href="mailto:leonoracolbert@gmail.edu" class="footer__link">leonoracolbert@gmail.com</a>
         <ul class="social-list">
-            <li class="social-list__item"><a class="social-list__link" href="http://leonorpdx.github.io/">Blog</a></li>
-            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/leonorcolbert">LinkedIn</a></li>
-            <li class="social-list__item"><a class="social-list__link" href="https://github.com/LeonorPDX">Github</a></li>
+            <li class="social-list__item"><a class="social-list__link" href="http://leonorpdx.github.io/"><i class="fas fa-blog"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/leonorcolbert"><i class="fab fa-linkedin"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/LeonorPDX"><i class="fab fa-github-square"></i></a></li>
         </ul>
     </footer>
+
+    <script src="./js/index.js"></script>
     
 </body>
 </html>
