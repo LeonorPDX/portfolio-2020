@@ -15,7 +15,6 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: #5680e9;
     --clr-secondary-accent: #84ceeb;
     --clr-third-accent: #0e9fe7;
     
@@ -140,7 +139,7 @@ h3 { font-size: var(--fs-h3) }
 
 .section__subtitle--intro,
 .section__subtitle--about {
-    background: var(--clr-accent);
+    background: var(--clr-third-accent);
     padding: .25em 1em;
     font-family: var(--ff-secondary);
     margin-bottom: 1em;
@@ -222,12 +221,12 @@ nav {
 
 .nav-open .hamburger {
     transform: rotate(.625turn);
-    background: var(--clr-accent);
+    background: var(--clr-third-accent);
 }
 
 .nav-open .hamburger::before {
     transform: rotate(90deg) translateX(-6px);
-    background: var(--clr-accent);
+    background: var(--clr-third-accent);
 }
 
 .nav-open .hamburger::after {
