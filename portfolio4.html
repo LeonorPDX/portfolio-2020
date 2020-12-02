@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>L. Colbert | Portfolio</title>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.css"
+        integrity="sha512-f73UKwzP1Oia45eqHpHwzJtFLpvULbhVpEJfaWczo/ZCV5NWSnK4vLDnjTaMps28ocZ05RbI83k2RlQH92zy7A=="
+        crossorigin="anonymous" />
+    
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <script src="https://kit.fontawesome.com/922b45164f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/logo.png" alt="Leonor Colbert logo with laptop icon">
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation menu">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#my-services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <section class="intro">
+        <h1 class="section__title section__title--intro">
+            Project: <strong>Cookbook Community</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">MVC web app built with Sinatra</p>
+        <img src="img/portfolio-04.png" alt="" class="intro__img">
+    </section>
+    
+    <div class="portfolio-item-individual">
+        <p>Cookbook Community is an MVC web app that was built with Sinatra and ActiveRecord. It uses sessions to keep track of users as they log in and out, and each user has full CRUD abilities with resources that belong to that user.</p>
+        
+        <div class="portfolio-item-individual__video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/4tjBlS7e9Ug" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <p>This project is a recipe sharing site where users can contribute recipes to a shared index of all recipes, update or delete their own recipes, and also create a collection of saved recipes in their own “Cookbook.” Users can browse recipes by type, view recipes by author, and view other users’ Cookbooks.</p>
+
+        <div class="portfolio-item-individual__links">
+            <a href="https://github.com/LeonorPDX/sinatra-crud-cookbook-community" class="btn">GitHub Repo</a>
+            <a href="https://leonorpdx.github.io/cookbook_community_sinatra_project" class="btn">Blog Post</a>
+        </div>
+    </div>
+
+    <!-- Footer & Contact info -->
+
+    <footer class="footer">
+        <a href="mailto:leonoracolbert@gmail.edu" class="footer__link">leonoracolbert@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item"><a class="social-list__link" href="http://leonorpdx.github.io/"><i class="fas fa-blog"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/leonorcolbert"><i class="fab fa-linkedin"></i></a></li>
+            <li class="social-list__item"><a class="social-list__link" href="https://github.com/LeonorPDX"><i class="fab fa-github-square"></i></a></li>
+        </ul>
+    </footer>
+
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>

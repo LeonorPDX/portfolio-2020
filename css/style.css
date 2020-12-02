@@ -207,8 +207,8 @@ nav {
     border: 0;
     cursor: pointer;
     position: absolute;
-    right: 1em;
-    top: 1em;
+    right: 1.5em;
+    top: 1.5em;
     z-index: 1000;
 }
 
@@ -302,7 +302,9 @@ nav {
         text-align: right;
         position: relative;
         left: -1.5em;
-        width: calc(100% + 1.5em)
+        width: calc(100% + 1.5em);
+        padding-right: 1em;
+        padding-left: calc(200px + 4em);
     }
 }
 
@@ -500,6 +502,8 @@ nav {
 .portfolio-item-individual__video {
     display: flex;
     justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .portfolio-item-individual p {
