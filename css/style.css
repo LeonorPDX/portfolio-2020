@@ -222,12 +222,12 @@ nav {
 
 .nav-open .hamburger {
     transform: rotate(.625turn);
-    background: var(--clr-accent);
+    background: var(--clr-third-accent);
 }
 
 .nav-open .hamburger::before {
     transform: rotate(90deg) translateX(-6px);
-    background: var(--clr-accent);
+    background: var(--clr-third-accent);
 }
 
 .nav-open .hamburger::after {
