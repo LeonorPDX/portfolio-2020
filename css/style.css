@@ -433,9 +433,8 @@ nav {
     margin-bottom: 1.5em;
     margin-top: 1em;
     background: var(--clr-dark);
-    overflow: hidden;
-    display: flex;
     justify-content: center;
+    display: grid;
     transition: 
         transform 600ms cubic-bezier(.5, 0, .5, 1),
         opacity 250ms linear;
